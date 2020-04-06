@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1894231141119216}
+  m_IsPrefabParent: 1
+--- !u!1 &1894231141119216
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4731315063651936}
+  - component: {fileID: 114403564990152348}
+  m_Layer: 0
+  m_Name: UIManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4731315063651936
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1894231141119216}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.731006, y: -21.901499, z: -1.6381962}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114403564990152348
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1894231141119216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 280fd91af703e7f419e97e7198470129, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreUI: {fileID: 0}
+  wispUI: {fileID: 0}
+  highScoreUI: {fileID: 0}
+  countDownPause: {fileID: 0}
+  currentStreak: {fileID: 0}
+  TitleScreen: {fileID: 0}
+  SaveButton: {fileID: 0}
+  whilePlayingUI: {fileID: 0}
+  pauseUI: {fileID: 0}
+  OptionScreen: {fileID: 0}
+  ViewList:
+  - {fileID: 0}
+  - {fileID: 0}
+  menuViewIndex: 0
+  tapToPlay_Image: {fileID: 0}
+  tapToContinue_SPR: {fileID: 21300034, guid: d3b7bffe7f4be7547818bdb6ed10eb60, type: 3}
+  tapToPlay_SPR: {fileID: 21300006, guid: 207521e4abbb8ce4a9ec0c7ea96cd87f, type: 3}

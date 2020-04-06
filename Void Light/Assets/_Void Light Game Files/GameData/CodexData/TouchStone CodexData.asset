@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e25429750e5e894a80ab256d075a668, type: 3}
+  m_Name: TouchStone CodexData
+  m_EditorClassIdentifier: 
+  codexType: 0
+  title: TouchStone
+  summary: 'The TouchStone is the starting point  and your guide through the void.
+
+
+    this rune appears after clearing each stage.
+
+
+    You can save your  game when a section  is cleared and a TouchStone is reached.'
+  runeImage: {fileID: 21300000, guid: bacd334ab5965a54683f7899a84039cb, type: 3}
+  fontSize: 50

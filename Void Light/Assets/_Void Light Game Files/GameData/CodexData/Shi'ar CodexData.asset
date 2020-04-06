@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e25429750e5e894a80ab256d075a668, type: 3}
+  m_Name: Shi'ar CodexData
+  m_EditorClassIdentifier: 
+  codexType: 4
+  title: SHI'AR
+  summary: "A stone Bearing the Shi'ar rune will constantly fade and reappear. \r\n\r\nThe
+    Shi'ar rune will test your ability to track the unseen.\r\n\r\nYou may proceed
+    even if you cannot see the stone, provided you have tracked it's movement."
+  runeImage: {fileID: 21300000, guid: 20759198f31fca14b8c19dc36aa1bb1f, type: 3}
+  fontSize: 50

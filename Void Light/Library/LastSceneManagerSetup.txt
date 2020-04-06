@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/_Void Light Game Files/_Scene/Splash Screen V1.0.unity
+  isLoaded: 1
+  isActive: 1

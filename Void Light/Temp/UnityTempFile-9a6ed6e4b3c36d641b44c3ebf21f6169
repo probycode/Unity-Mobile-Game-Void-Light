@@ -1,0 +1,464 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:Temp/Assembly-CSharp.dll
+-unsafe
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/Managed/UnityEditor.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.WebModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+-r:Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.38f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
+-r:C:/Users/shmoe/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/UnityEngine.Advertisements.dll
+-r:C:/Users/shmoe/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll
+-r:C:/Users/shmoe/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll
+-r:C:/Users/shmoe/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_4_OR_NEWER
+-define:UNITY_2017_4_38
+-define:UNITY_2017_4
+-define:UNITY_2017
+-define:UNITY_ADS
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_GENERICS
+-define:ENABLE_PVR_GI
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_GRID
+-define:ENABLE_TILEMAP
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_DIRECTOR
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_TIMELINE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_NATIVE_ARRAY
+-define:ENABLE_SPRITE_MASKING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:ENABLE_MONO_BDWGC
+-define:PLATFORM_SUPPORTS_MONO
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_VIDEO
+-define:ENABLE_RMGUI
+-define:ENABLE_PACKMAN
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_STYLE_SHEETS
+-define:ENABLE_LOCALIZATION
+-define:PLATFORM_ANDROID
+-define:UNITY_ANDROID
+-define:UNITY_ANDROID_API
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_EGL
+-define:ENABLE_NETWORK
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING
+-define:PLATFORM_SUPPORTS_ADS_ID
+-define:UNITY_CAN_SHOW_SPLASH_SCREEN
+-define:ENABLE_VR
+-define:ENABLE_AR
+-define:ENABLE_SPATIALTRACKING
+-define:ENABLE_UNITYADS_RUNTIME
+-define:UNITY_UNITYADS_API
+-define:ENABLE_MONO
+-define:NET_2_0_SUBSET
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_NATIVE_ARRAY_CHECKS
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_VSTU
+-define:UNITY_HAS_GOOGLEVR
+-define:UNITY_HAS_TANGO
+"Assets/_Void Light Game Files/GameData/GameData.cs"
+"Assets/_Void Light Game Files/Scripts/Ads/AdsHandler.cs"
+"Assets/_Void Light Game Files/Scripts/Ads/AdsManager.cs"
+"Assets/_Void Light Game Files/Scripts/FogRig.cs"
+"Assets/_Void Light Game Files/Scripts/FX/LoadingTextEffect.cs"
+"Assets/_Void Light Game Files/Scripts/FX/SmokeSFX.cs"
+"Assets/_Void Light Game Files/Scripts/FX/TapToLaunchEffect.cs"
+"Assets/_Void Light Game Files/Scripts/GameData/CodexData.cs"
+"Assets/_Void Light Game Files/Scripts/GameData/ColorPaletData.cs"
+"Assets/_Void Light Game Files/Scripts/GameData/Items/ColorItem.cs"
+"Assets/_Void Light Game Files/Scripts/GameData/Items/Item.cs"
+"Assets/_Void Light Game Files/Scripts/GameData/PlayerData.cs"
+"Assets/_Void Light Game Files/Scripts/GooglePlay/Achievements/AchievementController.cs"
+"Assets/_Void Light Game Files/Scripts/GooglePlay/GooglePlayManager.cs"
+"Assets/_Void Light Game Files/Scripts/Managers/ColorManager/ChangeColorMode.cs"
+"Assets/_Void Light Game Files/Scripts/Managers/ColorManager/ColorCell.cs"
+"Assets/_Void Light Game Files/Scripts/Managers/GameManager.cs"
+"Assets/_Void Light Game Files/Scripts/Managers/ItemManager.cs"
+"Assets/_Void Light Game Files/Scripts/Managers/PurchaseManager.cs"
+"Assets/_Void Light Game Files/Scripts/Managers/SceneManager.cs"
+"Assets/_Void Light Game Files/Scripts/Managers/ScoreManager.cs"
+"Assets/_Void Light Game Files/Scripts/Managers/SFXManager.cs"
+"Assets/_Void Light Game Files/Scripts/Misc/BobbingFX.cs"
+"Assets/_Void Light Game Files/Scripts/Misc/ColorEffect.cs"
+"Assets/_Void Light Game Files/Scripts/Misc/CustomGravity.cs"
+"Assets/_Void Light Game Files/Scripts/Misc/GameGlobel.cs"
+"Assets/_Void Light Game Files/Scripts/Misc/KillBox.cs"
+"Assets/_Void Light Game Files/Scripts/Misc/PlayerSFXController.cs"
+"Assets/_Void Light Game Files/Scripts/Misc/ScrollSnapRect.cs"
+"Assets/_Void Light Game Files/Scripts/Misc/SFXController.cs"
+"Assets/_Void Light Game Files/Scripts/Misc/SplashEffect.cs"
+"Assets/_Void Light Game Files/Scripts/Misc/WispColorFX.cs"
+"Assets/_Void Light Game Files/Scripts/Misc/WispSFXController.cs"
+"Assets/_Void Light Game Files/Scripts/Misc/WispsInBackroundController.cs"
+"Assets/_Void Light Game Files/Scripts/MusicManager/MusicLoop.cs"
+"Assets/_Void Light Game Files/Scripts/MusicManager/MusicManager.cs"
+"Assets/_Void Light Game Files/Scripts/Platform/FadePlatform.cs"
+"Assets/_Void Light Game Files/Scripts/Platform/LeaveArea.cs"
+"Assets/_Void Light Game Files/Scripts/Platform/Platform.cs"
+"Assets/_Void Light Game Files/Scripts/Platform/PlatformSpawner.cs"
+"Assets/_Void Light Game Files/Scripts/Platform/PlatformTrigger.cs"
+"Assets/_Void Light Game Files/Scripts/Platform/RandomPlatformTypes.cs"
+"Assets/_Void Light Game Files/Scripts/Platform/StartPlatform.cs"
+"Assets/_Void Light Game Files/Scripts/Player/CameraFollow.cs"
+"Assets/_Void Light Game Files/Scripts/Player/PlayerController.cs"
+"Assets/_Void Light Game Files/Scripts/Player/PlayerGraphicsController.cs"
+"Assets/_Void Light Game Files/Scripts/Rotater.cs"
+"Assets/_Void Light Game Files/Scripts/SplashScreenManager.cs"
+"Assets/_Void Light Game Files/Scripts/Testing Scripts/TestStuff.cs"
+"Assets/_Void Light Game Files/Scripts/UI/Buttons/AchievementButton.cs"
+"Assets/_Void Light Game Files/Scripts/UI/Buttons/CodexButton.cs"
+"Assets/_Void Light Game Files/Scripts/UI/Buttons/LeaderBoardButton.cs"
+"Assets/_Void Light Game Files/Scripts/UI/Buttons/MusicButton.cs"
+"Assets/_Void Light Game Files/Scripts/UI/Buttons/StartGameButton.cs"
+"Assets/_Void Light Game Files/Scripts/UI/Buttons/ToggleSFXButton.cs"
+"Assets/_Void Light Game Files/Scripts/UI/Buttons/UnlockButtonUI.cs"
+"Assets/_Void Light Game Files/Scripts/UI/ChestUI.cs"
+"Assets/_Void Light Game Files/Scripts/UI/DarkEffectUI.cs"
+"Assets/_Void Light Game Files/Scripts/UI/DeleteGameButton.cs"
+"Assets/_Void Light Game Files/Scripts/UI/ObjectToUI/PlatformUIController.cs"
+"Assets/_Void Light Game Files/Scripts/UI/PopUpViews/InGameInfoTextUI.cs"
+"Assets/_Void Light Game Files/Scripts/UI/PopUpViews/PopUpViewAds.cs"
+"Assets/_Void Light Game Files/Scripts/UI/UIElements/PointerUI.cs"
+"Assets/_Void Light Game Files/Scripts/UI/Views/ActionsMenuViewController.cs"
+"Assets/_Void Light Game Files/Scripts/UI/Views/CodexSelectViewUIController.cs"
+"Assets/_Void Light Game Files/Scripts/UI/Views/CodexUIController.cs"
+"Assets/_Void Light Game Files/Scripts/UI/Views/CustomizePlayerViewController.cs"
+"Assets/_Void Light Game Files/Scripts/UI/Views/InGameUIController.cs"
+"Assets/_Void Light Game Files/Scripts/UI/Views/OptionsUIController.cs"
+"Assets/_Void Light Game Files/Scripts/UI/Views/TitleScreenUIController.cs"
+"Assets/_Void Light Game Files/Scripts/UI/Views/UnlockColorUIController.cs"
+"Assets/_Void Light Game Files/Scripts/Utilities/DestroySelfTimer.cs"
+"Assets/_Void Light Game Files/Scripts/Utilities/Fading.cs"
+"Assets/_Void Light Game Files/Scripts/Utilities/FPSController.cs"
+"Assets/_Void Light Game Files/Scripts/Utilities/RotateEffect.cs"
+"Assets/_Void Light Game Files/Scripts/Utilities/SaveLoadManager.cs"
+"Assets/_Void Light Game Files/Scripts/Utilities/SimplePool.cs"
+"Assets/_Void Light Game Files/Scripts/Utilities/Tip.cs"
+"Assets/_Void Light Game Files/Scripts/Utilities/Utilities.cs"
+"Assets/_Void Light Game Files/Scripts/Utilities/VisualDebug.cs"
+"Assets/_Void Light Game Files/Scripts/Wisp/Wisp.cs"
+"Assets/_Void Light Game Files/ViewController/UI Scripts/Buttons/ActionButton.cs"
+"Assets/_Void Light Game Files/ViewController/UI Scripts/Buttons/AudioButtonUI.cs"
+"Assets/_Void Light Game Files/ViewController/UI Scripts/Buttons/GoToViewButton.cs"
+"Assets/_Void Light Game Files/ViewController/UI Scripts/PopUpView/MakePopUpMessageButton.cs"
+"Assets/_Void Light Game Files/ViewController/UI Scripts/PopUpView/PopUpStanderd.cs"
+"Assets/_Void Light Game Files/ViewController/UI Scripts/PopUpView/PopUpViewController.cs"
+"Assets/_Void Light Game Files/ViewController/UI Scripts/PopUpView/PopUpViewMessage.cs"
+"Assets/_Void Light Game Files/ViewController/UI Scripts/UI Base Classes/CellUI.cs"
+"Assets/_Void Light Game Files/ViewController/UI Scripts/UI Base Classes/PopUpView.cs"
+"Assets/_Void Light Game Files/ViewController/UI Scripts/UI Base Classes/ViewController.cs"
+"Assets/_Void Light Game Files/ViewController/UI Scripts/UI Base Classes/ViewUI.cs"
+"Assets/_Void Light Game Files/ViewController/UI Scripts/UI Base Classes/ViewUIButton.cs"
+Assets/AndroidGPGSIds.cs
+"Assets/Downloaded Assets/Particlecollection_Free samples/Plugins/Effect/Script/CameraTarget.cs"
+"Assets/Downloaded Assets/Particlecollection_Free samples/Plugins/Effect/Script/EffectController.cs"
+"Assets/Downloaded Assets/Particlecollection_Free samples/Plugins/Effect/Script/EffectDemo.cs"
+"Assets/Downloaded Assets/Particlecollection_Free samples/Plugins/Effect/Script/EffectShaderPropertyStr.cs"
+"Assets/Downloaded Assets/Particlecollection_Free samples/Plugins/Effect/Script/RenderEffect.cs"
+"Assets/Downloaded Assets/Particlecollection_Free samples/Plugins/Effect/Script/TransformExtension.cs"
+Assets/GooglePlayGames/BasicApi/Achievement.cs
+Assets/GooglePlayGames/BasicApi/CommonStatusCodes.cs
+Assets/GooglePlayGames/BasicApi/CommonTypes.cs
+Assets/GooglePlayGames/BasicApi/DummyClient.cs
+Assets/GooglePlayGames/BasicApi/Events/IEvent.cs
+Assets/GooglePlayGames/BasicApi/Events/IEventsClient.cs
+Assets/GooglePlayGames/BasicApi/IPlayGamesClient.cs
+Assets/GooglePlayGames/BasicApi/LeaderboardScoreData.cs
+Assets/GooglePlayGames/BasicApi/Multiplayer/Invitation.cs
+Assets/GooglePlayGames/BasicApi/Multiplayer/IRealTimeMultiplayerClient.cs
+Assets/GooglePlayGames/BasicApi/Multiplayer/ITurnBasedMultiplayerClient.cs
+Assets/GooglePlayGames/BasicApi/Multiplayer/MatchOutcome.cs
+Assets/GooglePlayGames/BasicApi/Multiplayer/Participant.cs
+Assets/GooglePlayGames/BasicApi/Multiplayer/Player.cs
+Assets/GooglePlayGames/BasicApi/Multiplayer/RealTimeMultiplayerListener.cs
+Assets/GooglePlayGames/BasicApi/Multiplayer/TurnBasedMatch.cs
+Assets/GooglePlayGames/BasicApi/Nearby/AdvertisingResult.cs
+Assets/GooglePlayGames/BasicApi/Nearby/ConnectionRequest.cs
+Assets/GooglePlayGames/BasicApi/Nearby/ConnectionResponse.cs
+Assets/GooglePlayGames/BasicApi/Nearby/DummyNearbyConnectionClient.cs
+Assets/GooglePlayGames/BasicApi/Nearby/EndpointDetails.cs
+Assets/GooglePlayGames/BasicApi/Nearby/INearbyConnectionClient.cs
+Assets/GooglePlayGames/BasicApi/Nearby/NearbyConnectionConfiguration.cs
+Assets/GooglePlayGames/BasicApi/PlayerStats.cs
+Assets/GooglePlayGames/BasicApi/PlayGamesClientConfiguration.cs
+Assets/GooglePlayGames/BasicApi/Quests/IQuest.cs
+Assets/GooglePlayGames/BasicApi/Quests/IQuestMilestone.cs
+Assets/GooglePlayGames/BasicApi/Quests/IQuestsClient.cs
+Assets/GooglePlayGames/BasicApi/SavedGame/ISavedGameClient.cs
+Assets/GooglePlayGames/BasicApi/SavedGame/ISavedGameMetadata.cs
+Assets/GooglePlayGames/BasicApi/SavedGame/SavedGameMetadataUpdate.cs
+Assets/GooglePlayGames/BasicApi/ScorePageToken.cs
+Assets/GooglePlayGames/BasicApi/Video/CaptureOverlayStateListener.cs
+Assets/GooglePlayGames/BasicApi/Video/iVideoClient.cs
+Assets/GooglePlayGames/BasicApi/Video/VideoCapabilities.cs
+Assets/GooglePlayGames/BasicApi/Video/VideoCaptureState.cs
+Assets/GooglePlayGames/GameInfo.cs
+Assets/GooglePlayGames/ISocialPlatform/PlayGamesAchievement.cs
+Assets/GooglePlayGames/ISocialPlatform/PlayGamesLeaderboard.cs
+Assets/GooglePlayGames/ISocialPlatform/PlayGamesLocalUser.cs
+Assets/GooglePlayGames/ISocialPlatform/PlayGamesPlatform.cs
+Assets/GooglePlayGames/ISocialPlatform/PlayGamesScore.cs
+Assets/GooglePlayGames/ISocialPlatform/PlayGamesUserProfile.cs
+Assets/GooglePlayGames/OurUtils/Logger.cs
+Assets/GooglePlayGames/OurUtils/Misc.cs
+Assets/GooglePlayGames/OurUtils/PlatformUtils.cs
+Assets/GooglePlayGames/OurUtils/PlayGamesHelperObject.cs
+Assets/GooglePlayGames/Platforms/Android/AndroidClient.cs
+Assets/GooglePlayGames/Platforms/Android/AndroidTokenClient.cs
+Assets/GooglePlayGames/Platforms/Android/Developers/JavaInterfaceProxy.cs
+Assets/GooglePlayGames/Platforms/Android/Developers/JavaObjWrapper.cs
+Assets/GooglePlayGames/Platforms/Android/Gms/Common/Api/GoogleApiClient.cs
+Assets/GooglePlayGames/Platforms/Android/Gms/Common/Api/PendingResult.cs
+Assets/GooglePlayGames/Platforms/Android/Gms/Common/Api/Result.cs
+Assets/GooglePlayGames/Platforms/Android/Gms/Common/Api/ResultCallback.cs
+Assets/GooglePlayGames/Platforms/Android/Gms/Common/Api/ResultCallbackProxy.cs
+Assets/GooglePlayGames/Platforms/Android/Gms/Common/Api/Status.cs
+Assets/GooglePlayGames/Platforms/Android/Gms/Common/ConnectionResult.cs
+Assets/GooglePlayGames/Platforms/Android/Gms/Games/Games.cs
+Assets/GooglePlayGames/Platforms/Android/Gms/Games/Stats/LoadPlayerStatsResultObject.cs
+Assets/GooglePlayGames/Platforms/Android/Gms/Games/Stats/PlayerStats.cs
+Assets/GooglePlayGames/Platforms/Android/Gms/Games/Stats/PlayerStatsObject.cs
+Assets/GooglePlayGames/Platforms/Android/Gms/Games/Stats/Stats.cs
+Assets/GooglePlayGames/Platforms/Android/Gms/Games/Stats/StatsObject.cs
+Assets/GooglePlayGames/Platforms/IClientImpl.cs
+Assets/GooglePlayGames/Platforms/IOS/IOSClient.cs
+Assets/GooglePlayGames/Platforms/IOS/IOSTokenClient.cs
+Assets/GooglePlayGames/Platforms/Native/CallbackUtils.cs
+Assets/GooglePlayGames/Platforms/Native/ConversionUtils.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/Achievement.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/AchievementManager.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/AndroidPlatformConfiguration.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/Builder.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/CaptureOverlayStateListenerHelper.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/CommonErrorStatus.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/EndpointDiscoveryListenerHelper.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/Event.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/EventManager.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/GameServices.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/InternalHooks.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/IosPlatformConfiguration.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/Leaderboard.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/LeaderboardManager.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/MessageListenerHelper.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/MultiplayerInvitation.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/MultiplayerParticipant.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/NearbyConnections.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/NearbyConnectionsBuilder.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/NearbyConnectionsStatus.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/NearbyConnectionTypes.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/ParticipantResults.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/Player.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/PlayerManager.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/PlayerStats.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/Quest.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/QuestManager.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/QuestMilestone.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/RealTimeEventListenerHelper.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/RealTimeMultiplayerManager.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/RealTimeRoom.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/RealTimeRoomConfig.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/RealTimeRoomConfigBuilder.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/Score.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/ScorePage.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/ScoreSummary.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/Sentinels.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/SnapshotManager.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/SnapshotMetadata.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/SnapshotMetadataChange.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/SnapshotMetadataChangeBuilder.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/StatsManager.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/Status.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/SymbolLocation.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/TurnBasedMatch.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/TurnBasedMatchConfig.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/TurnBasedMatchConfigBuilder.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/TurnBasedMultiplayerManager.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/Types.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/VideoCapabilities.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/VideoCaptureState.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/VideoManager.cs
+Assets/GooglePlayGames/Platforms/Native/JavaUtils.cs
+Assets/GooglePlayGames/Platforms/Native/NativeClient.cs
+Assets/GooglePlayGames/Platforms/Native/NativeEventClient.cs
+Assets/GooglePlayGames/Platforms/Native/NativeNearbyConnectionClientFactory.cs
+Assets/GooglePlayGames/Platforms/Native/NativeNearbyConnectionsClient.cs
+Assets/GooglePlayGames/Platforms/Native/NativeQuestClient.cs
+Assets/GooglePlayGames/Platforms/Native/NativeRealtimeMultiplayerClient.cs
+Assets/GooglePlayGames/Platforms/Native/NativeSavedGameClient.cs
+Assets/GooglePlayGames/Platforms/Native/NativeTurnBasedMultiplayerClient.cs
+Assets/GooglePlayGames/Platforms/Native/NativeVideoClient.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/AchievementManager.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/AndroidPlatformConfiguration.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/BaseReferenceHolder.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/Callbacks.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/CaptureOverlayStateListenerHelper.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/EventManager.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/GameServices.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/GameServicesBuilder.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/IosPlatformConfiguration.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/LeaderboardManager.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/MultiplayerInvitation.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/MultiplayerParticipant.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeAchievement.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeAppIdentifier.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeConnectionRequest.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeConnectionResponse.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeEndpointDetails.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeEndpointDiscoveryListenerHelper.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeEvent.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeLeaderboard.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeMessageListenerHelper.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NativePlayer.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NativePlayerStats.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeQuest.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeQuestMilestone.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeRealTimeRoom.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeScore.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeScoreEntry.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeScorePage.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeScorePageToken.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeScoreSummary.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeSnapshotMetadata.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeSnapshotMetadataChange.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeStartAdvertisingResult.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeTurnBasedMatch.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeVideoCapabilities.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeVideoCaptureState.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NearbyConnectionsManager.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NearbyConnectionsManagerBuilder.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/ParticipantResults.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/PInvokeUtilities.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/PlatformConfiguration.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/PlayerManager.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/PlayerSelectUIResponse.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/QuestManager.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/RealTimeEventListenerHelper.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/RealtimeManager.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/RealtimeRoomConfig.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/RealtimeRoomConfigBuilder.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/SnapshotManager.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/StatsManager.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/TurnBasedManager.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/TurnBasedMatchConfig.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/TurnBasedMatchConfigBuilder.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/VideoManager.cs
+Assets/GooglePlayGames/Platforms/Native/UnsupportedSavedGamesClient.cs
+Assets/GooglePlayGames/Platforms/NearbyConnectionClientFactory.cs
+Assets/GooglePlayGames/Platforms/PlayGamesClientFactory.cs
+Assets/GooglePlayGames/Platforms/TokenClient.cs
+Assets/GooglePlayGames/PluginVersion.cs
+-r:"C:\Program Files\Unity\Hub\Editor\2017.4.38f1\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2017.4.38f1\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2017.4.38f1\Editor\Data\Mono\lib\mono\unity\UnityScript.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2017.4.38f1\Editor\Data\Mono\lib\mono\unity\UnityScript.Lang.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2017.4.38f1\Editor\Data\Mono\lib\mono\unity\Boo.Lang.dll"
+-sdk:unity

@@ -1,0 +1,610 @@
+fileFormatVersion: 2
+guid: 3cbcda6a413a64c4b82a41c8a5e68e4c
+timeCreated: 1491103713
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Stone Platforms Full Sprite Sheet 2048x2048_0
+    21300002: Stone Platforms Full Sprite Sheet 2048x2048_1
+    21300004: Stone Platforms Full Sprite Sheet 2048x2048_2
+    21300006: Stone Platforms Full Sprite Sheet 2048x2048_3
+    21300008: Stone Platforms Full Sprite Sheet 2048x2048_4
+    21300010: Stone Platforms Full Sprite Sheet 2048x2048_5
+    21300012: Stone Platforms Full Sprite Sheet 2048x2048_6
+    21300014: Stone Platforms Full Sprite Sheet 2048x2048_7
+    21300016: Stone Platforms Full Sprite Sheet 2048x2048_8
+    21300018: Stone Platforms Full Sprite Sheet 2048x2048_9
+    21300020: Stone Platforms Full Sprite Sheet 2048x2048_10
+    21300022: Stone Platforms Full Sprite Sheet 2048x2048_11
+    21300024: Stone Platforms Full Sprite Sheet 2048x2048_12
+    21300026: Stone Platforms Full Sprite Sheet 2048x2048_13
+    21300028: Stone Platforms Full Sprite Sheet 2048x2048_14
+    21300030: Stone Platforms Full Sprite Sheet 2048x2048_15
+    21300032: Stone Platforms Full Sprite Sheet 2048x2048_16
+    21300034: Stone Platforms Full Sprite Sheet 2048x2048_17
+    21300036: Stone Platforms Full Sprite Sheet 2048x2048_18
+    21300038: Stone Platforms Full Sprite Sheet 2048x2048_19
+    21300040: Stone Platforms Full Sprite Sheet 2048x2048_20
+    21300042: Stone Platforms Full Sprite Sheet 2048x2048_21
+    21300044: Stone Platforms Full Sprite Sheet 2048x2048_22
+    21300046: Stone Platforms Full Sprite Sheet 2048x2048_23
+    21300048: Stone Platforms Full Sprite Sheet 2048x2048_24
+    21300050: Stone Platforms Full Sprite Sheet 2048x2048_25
+    21300052: Stone Platforms Full Sprite Sheet 2048x2048_26
+    21300054: Stone Platforms Full Sprite Sheet 2048x2048_27
+    21300056: Stone Platforms Full Sprite Sheet 2048x2048_28
+    21300058: Stone Platforms Full Sprite Sheet 2048x2048_29
+    21300060: Stone Platforms Full Sprite Sheet 2048x2048_30
+    21300062: Stone Platforms Full Sprite Sheet 2048x2048_31
+    21300064: Stone Platforms Full Sprite Sheet 2048x2048_32
+    21300066: Stone Platforms Full Sprite Sheet 2048x2048_33
+    21300068: Stone Platforms Full Sprite Sheet 2048x2048_34
+    21300070: Stone Platforms Full Sprite Sheet 2048x2048_35
+    21300072: Stone Platforms Full Sprite Sheet 2048x2048_36
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Stone Platforms Full Sprite Sheet 2048x2048_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1695
+        width: 314
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stone Platforms Full Sprite Sheet 2048x2048_1
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 1691
+        width: 314
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stone Platforms Full Sprite Sheet 2048x2048_2
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 1829
+        width: 170
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stone Platforms Full Sprite Sheet 2048x2048_3
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 1905
+        width: 112
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stone Platforms Full Sprite Sheet 2048x2048_4
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 1919
+        width: 84
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stone Platforms Full Sprite Sheet 2048x2048_5
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 1917
+        width: 64
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stone Platforms Full Sprite Sheet 2048x2048_6
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1829
+        width: 170
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stone Platforms Full Sprite Sheet 2048x2048_7
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 1905
+        width: 112
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stone Platforms Full Sprite Sheet 2048x2048_8
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 1919
+        width: 84
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stone Platforms Full Sprite Sheet 2048x2048_9
+      rect:
+        serializedVersion: 2
+        x: 1865
+        y: 1917
+        width: 64
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stone Platforms Full Sprite Sheet 2048x2048_10
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 1649
+        width: 172
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stone Platforms Full Sprite Sheet 2048x2048_11
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 1757
+        width: 132
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stone Platforms Full Sprite Sheet 2048x2048_12
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 1773
+        width: 116
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stone Platforms Full Sprite Sheet 2048x2048_13
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 1648
+        width: 172
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stone Platforms Full Sprite Sheet 2048x2048_14
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 1757
+        width: 130
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stone Platforms Full Sprite Sheet 2048x2048_15
+      rect:
+        serializedVersion: 2
+        x: 1779
+        y: 1773
+        width: 114
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stone Platforms Full Sprite Sheet 2048x2048_16
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 1635
+        width: 74
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stone Platforms Full Sprite Sheet 2048x2048_17
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 1661
+        width: 78
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stone Platforms Full Sprite Sheet 2048x2048_18
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 1635
+        width: 74
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stone Platforms Full Sprite Sheet 2048x2048_19
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 1661
+        width: 78
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stone Platforms Full Sprite Sheet 2048x2048_20
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1251
+        width: 309
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stone Platforms Full Sprite Sheet 2048x2048_21
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 1251
+        width: 308
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stone Platforms Full Sprite Sheet 2048x2048_22
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 1251
+        width: 308
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stone Platforms Full Sprite Sheet 2048x2048_23
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 1251
+        width: 308
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stone Platforms Full Sprite Sheet 2048x2048_24
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 1417
+        width: 190
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stone Platforms Full Sprite Sheet 2048x2048_25
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 853
+        width: 334
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stone Platforms Full Sprite Sheet 2048x2048_26
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 849
+        width: 332
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stone Platforms Full Sprite Sheet 2048x2048_27
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 861
+        width: 335
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stone Platforms Full Sprite Sheet 2048x2048_28
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 871
+        width: 336
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stone Platforms Full Sprite Sheet 2048x2048_29
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 443
+        width: 310
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stone Platforms Full Sprite Sheet 2048x2048_30
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 443
+        width: 308
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stone Platforms Full Sprite Sheet 2048x2048_31
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 443
+        width: 308
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stone Platforms Full Sprite Sheet 2048x2048_32
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 443
+        width: 308
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stone Platforms Full Sprite Sheet 2048x2048_33
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 25
+        width: 333
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stone Platforms Full Sprite Sheet 2048x2048_34
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 35
+        width: 332
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stone Platforms Full Sprite Sheet 2048x2048_35
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 49
+        width: 334
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stone Platforms Full Sprite Sheet 2048x2048_36
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 59
+        width: 334
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
